@@ -93,6 +93,7 @@ img.profile-icon{
   display:flex;
   align-items:center;
   gap:20px;
+  flex:1;
 }
 .search-bar{
   flex:1;
