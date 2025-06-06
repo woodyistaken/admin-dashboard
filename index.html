@@ -4,52 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="sidebar">
-    <div class="dashboard-icon">
-      <img src="imgs/view-dashboard.svg" width="50px">
-      <h1>Dashboard</h1>
-    </div>
-    <div class="navigation">
-      <div class="navigation-content">
-        <img src="imgs/home.svg" width="30px">
-        Home
+    <div class="sidebar-container">
+      <div class="dashboard-icon">
+        <img src="imgs/view-dashboard.svg" width="50px">
+        <h1>Dashboard</h1>
       </div>
-      <div class="navigation-content">
-        <img src="imgs/card-account-details.svg" width="30px">
-        Profile
+      <div class="navigation">
+        <div class="navigation-content">
+          <img src="imgs/home.svg" width="30px">
+          Home
+        </div>
+        <div class="navigation-content">
+          <img src="imgs/card-account-details.svg" width="30px">
+          Profile
+        </div>
+        <div class="navigation-content">
+          <img src="imgs/message.svg" width="30px" style="transform:scaleX(-1)">
+          Messages
+        </div>
+        <div class="navigation-content">
+          <img src="imgs/clock-time-three.svg" width="30px">
+          History
+        </div>
+        <div class="navigation-content">
+          <img src="imgs/note-multiple-outline.svg" width="30px">
+          Tasks
+        </div>
+        <div class="navigation-content">
+          <img src="imgs/account-group.svg" width="30px" style="fill:white">
+          Communities
+        </div>
       </div>
-      <div class="navigation-content">
-        <img src="imgs/message.svg" width="30px" style="transform:scaleX(-1)">
-        Messages
-      </div>
-      <div class="navigation-content">
-        <img src="imgs/clock-time-three.svg" width="30px">
-        History
-      </div>
-      <div class="navigation-content">
-        <img src="imgs/note-multiple-outline.svg" width="30px">
-        Tasks
-      </div>
-      <div class="navigation-content">
-        <img src="imgs/account-group.svg" width="30px" style="fill:white">
-        Communities
-      </div>
-    </div>
-    <div class="settings">
-      <div class="settings-content">
-        <img src="imgs/cog.svg" width="30px" style="fill:white">
-        Settings
-      </div>
-      <div class="settings-content">
-        <img src="imgs/help-box.svg" width="30px" style="fill:white">
-        Support
-      </div>
-      <div class="settings-content">
-        <img src="imgs/shield-check.svg" width="30px" style="fill:white">
-        Privacy
+      <div class="settings">
+        <div class="settings-content">
+          <img src="imgs/cog.svg" width="30px" style="fill:white">
+          Settings
+        </div>
+        <div class="settings-content">
+          <img src="imgs/help-box.svg" width="30px" style="fill:white">
+          Support
+        </div>
+        <div class="settings-content">
+          <img src="imgs/shield-check.svg" width="30px" style="fill:white">
+          Privacy
+        </div>
       </div>
     </div>
   </div>
@@ -78,14 +83,118 @@
     </div>
   </div>
   <div class="main-layout">
-    <h4>Your Projects</h4>
     <div class="projects-container">
-
+      <h4>Your Projects</h4>
+      <div class="cards-container">
+        <div class="card">
+          <h1>Super Cool Project</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iusto recusandae a reiciendis aliquam obcaecati aliquid libero saepe ullam, ratione, hic quos magni excepturi ut magnam tempore vero pariatur dolore!</p>
+          <div class="image-container">
+            <img src="imgs/star-plus-outline.svg" width="20px">
+            <img src="imgs/eye-plus-outline.svg" width="20px">
+            <img src="imgs/share-variant-outline.svg" width="20px">
+          </div>
+        </div>
+        <div class="card">
+          <h1>More Cool Project</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem assumenda obcaecati amet rerum accusamus voluptates, ea, deserunt esse exercitationem, dicta deleniti impedit necessitatibus voluptate consectetur facere natus vel aliquam? Totam?</p>
+          <div class="image-container">
+            <img src="imgs/star-plus-outline.svg" width="20px">
+            <img src="imgs/eye-plus-outline.svg" width="20px">
+            <img src="imgs/share-variant-outline.svg" width="20px">
+          </div>
+        </div>
+        <div class="card">
+          <h1>Cool Project</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, labore. Quibusdam animi soluta voluptate labore dolore consectetur, ullam dolorum quos impedit explicabo ipsam vitae debitis! Quidem, nihil? Quidem, minus quis?</p>
+          <div class="image-container">
+            <img src="imgs/star-plus-outline.svg" width="20px">
+            <img src="imgs/eye-plus-outline.svg" width="20px">
+            <img src="imgs/share-variant-outline.svg" width="20px">
+          </div>
+        </div>
+        <div class="card">
+          <h1>Not Cool Project</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil maiores maxime dignissimos beatae quo nobis laudantium earum accusantium soluta. Quia cum a, enim eligendi consectetur maiores fugit et ad earum?</p>
+          <div class="image-container">
+            <img src="imgs/star-plus-outline.svg" width="20px">
+            <img src="imgs/eye-plus-outline.svg" width="20px">
+            <img src="imgs/share-variant-outline.svg" width="20px">
+          </div>
+        </div>
+        <div class="card">
+          <h1>Very Cool Project</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dicta voluptatibus placeat non enim aliquam minus repellendus? Hic qui, fugiat quo laborum optio magni, quae debitis blanditiis dolore vel animi.</p>
+          <div class="image-container">
+            <img src="imgs/star-plus-outline.svg" width="20px">
+            <img src="imgs/eye-plus-outline.svg" width="20px">
+            <img src="imgs/share-variant-outline.svg" width="20px">
+          </div>
+        </div>
+        <div class="card">
+          <h1>Boring project</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nostrum provident voluptas magnam odio repudiandae repellendus voluptatem hic tenetur autem veniam excepturi nisi pariatur cumque doloribus odit error, rem animi.</p>
+          <div class="image-container">
+            <img src="imgs/star-plus-outline.svg" width="20px">
+            <img src="imgs/eye-plus-outline.svg" width="20px">
+            <img src="imgs/share-variant-outline.svg" width="20px">
+          </div>
+        </div>
+      </div>
     </div>
-    <h4>Announcements</h4>
-    <div class="announcements"></div>
-    <h4>Trending</h4>
-    <div class="trending-box"></div>
+    
+    
+    <div class="announcements">
+      <h4>Announcements</h4>
+      <div class="announcements-container">
+        <div class="announcement-post">
+          <h1>Site Maintenance</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem earum deleniti explicabo cumque recusandae dolorem quam consectetur fuga, beatae, aperiam, iusto a natus iure. Porro dolorem est deserunt illo dolorum?</p>
+        </div>
+        <div class="announcement-post">
+          <h1>Community Share Day</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reprehenderit explicabo, quidem necessitatibus eligendi, odio sed beatae nesciunt rem magni aut eaque! Error fuga qui, dolores cumque deleniti iure odit</p>
+        </div>
+        <div class="announcement-post">
+          <h1>Updated Privacy Policy</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, labore, consequatur qui, assumenda blanditiis vitae vero quia modi saepe exercitationem iusto. Non reprehenderit voluptatum iste quam error doloribus alias officiis!</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="trending">
+      <h4>Trending</h4>
+      <div class="trending-box">
+        <div class="profile-desc">
+          <img src="imgs/account.svg">
+          <div class="profile-text">
+            <h1>@tegan</h1>
+            <p>World Peace Builder</p>
+          </div>
+        </div>
+        <div class="profile-desc">
+          <img src="imgs/account.svg">
+          <div class="profile-text">
+            <h1>@morgan</h1>
+            <p>Super Cool Project</p>
+          </div>
+        </div>
+        <div class="profile-desc">
+          <img src="imgs/account.svg">
+          <div class="profile-text">
+            <h1>@kendall</h1>
+            <p>Life Changing App</p>
+          </div>
+        </div>
+        <div class="profile-desc">
+          <img src="imgs/account.svg">
+          <div class="profile-text">
+            <h1>@alex</h1>
+            <p>No Traffic Maker</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
